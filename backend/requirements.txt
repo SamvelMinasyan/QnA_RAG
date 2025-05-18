@@ -1,0 +1,7 @@
+flask
+openai
+numpy
+scikit-learn
+pytest
+flask-cors
+httpx

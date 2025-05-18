@@ -1,0 +1,11 @@
+id,question,answer
+1,What is this QnA App?,The QnA App is a RAG-powered question-and-answer service combining embedding-based retrieval with AI-generated responses.
+2,How does the RAG retrieval work?,The app computes embeddings for FAQs and user queries, then uses cosine similarity to find the most relevant contexts before generating an answer.
+3,Which AI models are used?,We use the OpenAI text-embedding-ada-002 model for embeddings and gpt-4o for answer generation and summarization.
+4,What is the summarize endpoint?,The /api/summarize endpoint refines AI-generated answers into concise summaries via a secondary summarization agent.
+5,How is user history managed?,The app stores Q&A pairs in an in-memory history log accessible via /api/history; future versions will persist to a database.
+6,Is there a Docker deployment option?,Docker support is planned: a docker-compose file will orchestrate backend and frontend containers for easy setup.
+7,What future features are planned?,Upcoming features include user authentication, rate limiting, context validation UIs, and human-in-the-loop feedback.
+8,Will there be support for multiple languages?,Multi-language question answering is on the roadmap, leveraging translation pre and post-processing layers.
+9,Can I integrate this with other platforms?,Future releases will include a webhook-based API and SDKs for seamless integration into existing web and mobile apps.
+10,How can I contribute or report issues?,The project will be open-sourced on GitHub, where you can submit pull requests, issues, and feature requests.
